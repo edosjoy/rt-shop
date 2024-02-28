@@ -1,2 +1,41 @@
 .idea
+.DS_Store
 
+# Ignore RT-Shop
+
+/rt-shop/.idea
+
+# dependencies
+/rt-shop/node_modules
+/rt-shop/.pnp
+/rt-shop/.pnp.js
+/rt-shop/.yarn/install-state.gz
+
+# testing
+/rt-shop/coverage
+
+# next.js
+/rt-shop/.next/
+/rt-shop/out/
+
+# production
+/rt-shop/build
+
+# misc
+/rt-shop/.DS_Store
+/rt-shop/*.pem
+
+# debug
+/rt-shop/npm-debug.log*
+/rt-shop/yarn-debug.log*
+/rt-shop/yarn-error.log*
+
+# local env files
+/rt-shop/.env*.local
+
+# vercel
+/rt-shop/.vercel
+
+# typescript
+/rt-shop/*.tsbuildinfo
+/rt-shop/next-env.d.ts
